@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.member{
+    width: 60%;
+    margin: 120px auto;
+    display: flex;
+    background-color: #dfe4ea;
+    padding: 20px 30px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+#header{
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.img{
+    flex: 1;
+
+}
+.member img{
+    user-select: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.info{
+    font-size: 1.5rem;
+    border-left:2px solid green ;
+    padding-left: 10px;
+    flex: 3;
+}
+@media (max-width:740px){
+    .member{
+        flex-direction: column;
+        width: 96%;
+        margin-bottom: 30px;
+    }
+}
